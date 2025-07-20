@@ -31,7 +31,6 @@ It uses the OpenWeatherMap API to show current weather by city name or your loca
 
 ---
 
-## Live Demo
 
 ## Live Demo
 
