@@ -1,0 +1,155 @@
+body.light {
+  background: linear-gradient(to right, #eeeeee, #cccccc);
+  color: #111;
+}
+
+
+body.light button {
+  background-color: #222;
+  color: white;
+}
+
+body.light #weatherResult {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: #444;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+body.light button:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#modeToggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  color: #222;
+  border: 2px solid #222;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+body:not(.light) #modeToggle {
+  background-color: #222;
+  color: white;
+  border: 2px solid white;
+}
+
+#modeToggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+#modeToggle:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0d0628, #0a1b40); /* Dark purple to dark blue */
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  transition: background 0.5s ease, color 0.3s ease;
+
+}
+
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    padding: 20px;
+  }
+  
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: #764ba2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    width: fit-content;
+  }
+  
+  
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  
+  #weatherResult {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  
+  #weatherResult {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  @media (max-width: 400px) {
+
+    .button-group {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    h1 {
+      font-size: 24px;
+    }
+  
+    input, button {
+      font-size: 14px;
+      width: 90%;
+    }
+  
+    #weatherResult {
+      font-size: 16px;
+      width: 90%;
+    }
+  }
+
+  #loading {
+    display: block;         /* make sure it behaves like a block element */
+    margin: 20px auto;      /* vertical margin + auto horizontal centering */
+    font-weight: bold;
+    text-align: center;     /* center the text inside the div */
+    color: white;           /* or whatever color fits your theme */
+    font-size: 18px;
+  }
+  
+  
+  .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  

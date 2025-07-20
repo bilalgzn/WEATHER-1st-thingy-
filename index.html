@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Weather by Bilal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Get Weather by Bilal</h1>
+    <button id="modeToggle" onclick="toggleMode()">🌙</button>
+
+    <input type="text" id="cityInput" placeholder="Enter a city">
+    <div class="button-group">
+      <button onclick="getWeather()">Get Weather</button>
+      <button onclick="getWeatherByLocation()">Use My Location</button>
+    </div>
+    
+
+    <div id="weatherResult"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <div id="loading" style="display: none;">Loading...</div>
+
+</body>
+</html>
