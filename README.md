@@ -33,7 +33,10 @@ It uses the OpenWeatherMap API to show current weather by city name or your loca
 
 ## Live Demo
 
-Check it out here: https://bilalgzn.github.io/WEATHER-1st-thingy-/
+## Live Demo
+
+Check it out here: [https://bilalgzn.github.io/WEATHER-1st-thingy-/](https://bilalgzn.github.io/WEATHER-1st-thingy-/)
+
 
 ---
 
